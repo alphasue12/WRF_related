@@ -95,6 +95,7 @@ def read_ascii(file):
     :param file: 输入是f.readlines(),一个列表文件
     :return: 还是一个列表文件
     :功能：防止文件中间或者末尾有空行
+    本函数参考自 https://blog.csdn.net/qq_44907989/article/details/125907641
     """
 
     file_tep = []
